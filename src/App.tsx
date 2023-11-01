@@ -1,11 +1,11 @@
-import "./App.css";
-import Main from "./components/Main";
+import QuoteGen from "./components/QuoteGen";
+import './index.css';
 
 function App() {
   return (
-    <>
-      <Main />
-    </>
+    <div id="main">
+      <QuoteGen />
+    </div>
   );
 }
 

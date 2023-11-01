@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -53,9 +53,34 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+} */
+
+#main {
+  /* background-color: green; */
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-color-scheme: light) {
+#quote-box {
+  /* background-color: green; */
+  font-size: large;
+  font: Courier serif;
+}
+
+#new-quote {
+  color: grey;
+  font-size: 15px;
+  padding: 10px 10px;
+  border: 1px solid blue;
+  border-radius: 4%;
+}
+
+#new-quote:hover {
+  color: black;
+  background-color: greenyellow;
+}
+
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -66,4 +91,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
