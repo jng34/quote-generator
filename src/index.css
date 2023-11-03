@@ -56,13 +56,17 @@ button:focus-visible {
 } */
 
 #main {
-  /* background-color: green; */
+  height: 100vh;
+  display: flex;
+  background-color: green;
   align-items: center;
   justify-content: center;
 }
 
 #quote-box {
-  /* background-color: green; */
+  padding: 0 20px;
+  display: inline-block;
+  background-color: lightgray;
   font-size: large;
   font: Courier serif;
 }
