@@ -1,5 +1,5 @@
 import QuoteGen from "./components/QuoteGen";
-import './index.css';
+import "./index.css";
 
 function App() {
   return (
