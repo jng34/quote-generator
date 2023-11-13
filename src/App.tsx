@@ -2,11 +2,7 @@ import QuoteGen from "./components/QuoteGen";
 import "./index.css";
 
 function App() {
-  return (
-    <div id="main">
-      <QuoteGen />
-    </div>
-  );
+  return <QuoteGen />
 }
 
 export default App;
